@@ -1,0 +1,27 @@
+app.css  #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  margin-top: 80px; /* Ajusta para que o conteúdo não fique atrás da navbar fixa */
+  padding: 20px;
+}
+
+/* Estilo para a barra de navegação e a imagem do logo */
+.navbar-logo {
+  display: flex;
+  align-items: center; /* Alinha a imagem verticalmente no centro */
+}
+
+.navbar-logo .logo-img {
+  width: 4cm; /* Define a largura da imagem como 2cm */
+  height: 4cm; /* Define a altura da imagem como 2cm */
+  object-fit: contain; /* Garante que a imagem não seja distorcida */
+}
