@@ -1,5 +1,5 @@
 {
-  "name": "minha-lanchonete",
+  "name": "iliada",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,14 +7,25 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    {
+  "name": "iliada",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.5.1"
+    "react-router-dom": "^6.30.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -29,3 +40,6 @@
     "vite": "^6.2.0"
   }
 }
+
+
+
